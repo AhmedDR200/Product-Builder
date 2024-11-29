@@ -1,12 +1,13 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import ProductCard from "./components/ProductCard";
 import { MyModal } from "./components/ui/Model";
-import { productList, formInputList } from "./data";
+import { productList, formInputList, colorsList } from "./data";
 import Button from "./components/ui/Button";
 import Input from "./components/ui/Input";
 import { IProduct } from "./interfaces/data";
 import { productValidation } from "./validation";
 import Err from "./components/Err";
+import CircleColor from "./components/CircleColor";
 
 const App = () => {
   const defaultProduct = {
@@ -96,6 +97,10 @@ const App = () => {
     </div>
   ));
 
+  const renderCircleColors = colorsList.map((color) => (
+    <CircleColor key={color} color={color}/>
+  ));
+
   return (
     <main className="container">
       <Button
@@ -111,6 +116,7 @@ const App = () => {
         <MyModal isOpen={isOpen} close={close} title="Add Product">
           <form className="space-y-3" onSubmit={submitHandler}>
             {renderFormInputs}
+            <div className="flex items-center flex-wrap space-x-1">{renderCircleColors}</div>
             <div className="flex items-center space-x-3">
               <Button className="p-2 w-full rounded-md text-black bg-indigo-600 hover:bg-indigo-500 focus:outline-none transform hover:scale-105 transition-transform duration-300 ease-in-out">
                 Submit

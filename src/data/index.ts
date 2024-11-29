@@ -9,7 +9,7 @@ export const productList: IProduct[] = [
       "A luxury midsize SUV with exceptional performance, premium interiors, and advanced technology features.",
     imageURL:
       "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: 5000.0,
+    price: "5000.0",
     colors: ["FF0000", "00FF00", "0000FF", "FFFF00", "00FFFF"],
     category: {
       name: "Cars",
@@ -24,7 +24,7 @@ export const productList: IProduct[] = [
       "A reliable and fuel-efficient compact car with a sleek design and advanced safety features.",
     imageURL:
       "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: 3000.0,
+    price: "3000.0",
     colors: ["FF0000", "00FF00", "0000FF", "FFFF00", "00FFFF"],
     category: {
       name: "Cars",
@@ -39,7 +39,7 @@ export const productList: IProduct[] = [
       "An iconic brand delivering luxury and performance with cutting-edge technology and comfort.",
     imageURL:
       "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: 7000.0,
+    price: "7000.0",
     colors: ["FF0000", "00FF00", "0000FF", "FFFF00", "00FFFF"],
     category: {
       name: "Cars",
@@ -54,7 +54,7 @@ export const productList: IProduct[] = [
       "The latest iPhone with an advanced camera system, A16 Bionic chip, and innovative features.",
     imageURL:
       "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: 1200.0,
+    price: "1200.0",
     colors: ["000000", "FFFFFF", "808080", "800080"],
     category: {
       name: "Smartphones",
@@ -69,7 +69,7 @@ export const productList: IProduct[] = [
       "Experience cutting-edge innovation with a high-resolution display, powerful performance, and versatile camera.",
     imageURL:
       "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: 1000.0,
+    price: "1000.0",
     colors: ["000000", "FF0000", "008000"],
     category: {
       name: "Smartphones",
@@ -84,7 +84,7 @@ export const productList: IProduct[] = [
       "Immerse yourself in the next generation of gaming with stunning graphics and lightning-fast performance.",
     imageURL:
       "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: 500.0,
+    price: "500.0",
     colors: ["000000", "FFFFFF"],
     category: {
       name: "Gaming",
@@ -99,7 +99,7 @@ export const productList: IProduct[] = [
       "A powerful laptop with the M2 chip, offering incredible speed, stunning display, and long battery life.",
     imageURL:
       "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: 2000.0,
+    price: "2000.0",
     colors: ["808080", "000000"],
     category: {
       name: "Laptops",
@@ -114,7 +114,7 @@ export const productList: IProduct[] = [
       "Capture moments like a pro with this advanced mirrorless camera featuring 4K video and image stabilization.",
     imageURL:
       "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: 2500.0,
+    price: "2500.0",
     colors: ["000000"],
     category: {
       name: "Cameras",
@@ -149,4 +149,21 @@ export const formInputList: IFormInput[] = [
     label: "Product Price",
     type: "number",
   },
+];
+
+export const colorsList: string[] = [
+  "#FF5733", // Fiery Orange
+  "#33FF57", // Bright Green
+  "#3357FF", // Vivid Blue
+  "#FF33A1", // Hot Pink
+  "#A133FF", // Deep Purple
+  "#FFC300", // Golden Yellow
+  "#FF5733", // Sunset Orange
+  "#33FFF3", // Aqua Cyan
+  "#57FF33", // Lime Green
+  "#C70039", // Crimson Red
+  "#900C3F", // Dark Magenta
+  "#581845", // Royal Plum
+  "#DAF7A6", // Pastel Green
+  "#FF5733", // Burnt Tangerine
 ];
