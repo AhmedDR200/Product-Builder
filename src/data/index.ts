@@ -151,14 +151,12 @@ export const formInputList: IFormInput[] = [
   },
 ];
 
-export const colorsList: string[] = [
-  "#FF5733", // Fiery Orange
+export const colors: string[] = [
   "#33FF57", // Bright Green
   "#3357FF", // Vivid Blue
   "#FF33A1", // Hot Pink
   "#A133FF", // Deep Purple
   "#FFC300", // Golden Yellow
-  "#FF5733", // Sunset Orange
   "#33FFF3", // Aqua Cyan
   "#57FF33", // Lime Green
   "#C70039", // Crimson Red
@@ -166,4 +164,5 @@ export const colorsList: string[] = [
   "#581845", // Royal Plum
   "#DAF7A6", // Pastel Green
   "#FF5733", // Burnt Tangerine
+  "#16A085", // Emerald Teal
 ];
